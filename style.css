@@ -263,6 +263,7 @@ header nav .home-iconbar .home-wishlist i {
     transform-origin: 50% 4px;
 }
 
+
 /* Section1 -kids-carousel */
 
 .kids-carousel {
@@ -443,7 +444,6 @@ header nav .home-iconbar .home-wishlist i {
 .kids-shop_brands a img {
     width: 20vw;
 }
-
 
 @-webkit-keyframes ring {
     0% {
