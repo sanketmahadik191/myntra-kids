@@ -263,13 +263,12 @@ header nav .home-iconbar .home-wishlist i {
     transform-origin: 50% 4px;
 }
 
-
 /* Section1 -kids-carousel */
 
 .kids-carousel {
     margin-top: 120px;
     display: flex;
-    width: 100%;
+    width: 100vw;
     overflow-x: scroll;
     height: auto;
 }
@@ -286,29 +285,33 @@ header nav .home-iconbar .home-wishlist i {
 .kids-headlines {
     height: 20vh;
     width: 95vw;
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
 }
 
 .kids-headlines h2 {
-    padding-left: 4em;
+    padding-left: 6vw;
     max-height: 5em;
     font-weight: 700;
     letter-spacing: .25vw;
-    font-size: 1.4vw;
+    font-size: 2em;
     text-transform: uppercase;
     color: #3e4152;
 }
 
 .kids-brand-wraper {
+    width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
 }
 
 .kids-brand-wraper a {
-    width: 11%;
+    width: 11vw;
+}
+
+.kids-brand-wraper a img {
+    width: 11vw;
 }
 
 
@@ -318,12 +321,17 @@ header nav .home-iconbar .home-wishlist i {
     margin-top: 5px;
     height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .kids-picks a {
-    width: 9%;
+    width: 9vw;
+}
+
+.kids-picks a img {
+    width: 9vw;
 }
 
 
@@ -332,18 +340,22 @@ header nav .home-iconbar .home-wishlist i {
 .kids-iconicbrands {
     height: auto;
     display: flex;
-    width: 100%;
+    width: 100vw;
 }
 
 .kids-iconicbrands a {
-    width: 20%;
+    width: 20vw;
+}
+
+.kids-iconicbrands a img {
+    width: 20vw;
 }
 
 
 /* ------------Section 5 Kids- Fassion and Essentials */
 
 .kids-fassion {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -351,7 +363,11 @@ header nav .home-iconbar .home-wishlist i {
 }
 
 .kids-fassion a {
-    width: 20%;
+    width: 20vw;
+}
+
+.kids-fassion a img {
+    width: 20vw;
 }
 
 
@@ -360,27 +376,34 @@ header nav .home-iconbar .home-wishlist i {
 .kids-exploremore {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
 .kids-exploremore a {
-    width: 50%;
+    width: 50vw;
+}
+
+.kids-exploremore a img {
+    width: 50vw;
 }
 
 
 /* ----------- Section 7 Kids - Kids Space */
 
 .kids-kids-space {
-    width: 100%;
+    width: 100vw;
     height: auto;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .kids-kids-space a {
-    width: 50%;
+    width: 50vw;
+}
+
+.kids-kids-space a img {
+    width: 50vw;
 }
 
 
@@ -389,12 +412,17 @@ header nav .home-iconbar .home-wishlist i {
 .kids-budget-buy {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 
 .kids-budget-buy a {
-    width: 16.3%;
+    width: 16.3vw;
+    background-size: cover;
+}
+
+.kids-budget-buy a img {
+    width: 16.3vw;
     background-size: cover;
 }
 
@@ -402,16 +430,20 @@ header nav .home-iconbar .home-wishlist i {
 /* ------------Section 9 Shop More Brands */
 
 .kids-shop_brands {
-    display: flex;
     height: auto;
-    width: 100%;
+    width: 100vw;
+    display: flex;
     justify-content: center;
 }
 
-.kids-shop_logo a {
-    background-size: cover;
-    width: 20%;
+.kids-shop_brands a {
+    width: 20vw;
 }
+
+.kids-shop_brands a img {
+    width: 20vw;
+}
+
 
 @-webkit-keyframes ring {
     0% {
